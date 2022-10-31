@@ -3,7 +3,7 @@
 PSQL="psql --username=freecodecamp --dbname=number_guess -t -Ac"
 
 THE_NUMBER=$[$RANDOM % 1000 + 1]
-echo $THE_NUMBER
+#echo $THE_NUMBER
 tries=0
 
 echo Enter your username:
